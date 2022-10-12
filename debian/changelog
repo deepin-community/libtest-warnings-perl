@@ -1,0 +1,190 @@
+libtest-warnings-perl (0.031-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Debian Janitor ]
+  * Remove constraints unnecessary since stretch:
+    + Build-Depends-Indep: Drop versioned constraint on libcpan-meta-check-perl
+      and libtest-simple-perl.
+
+  [ gregor herrmann ]
+  * Import upstream version 0.031.
+  * Declare compliance with Debian Policy 4.6.0.
+  * Bump debhelper-compat to 13.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 22 Aug 2021 21:33:00 +0200
+
+libtest-warnings-perl (0.030-1) unstable; urgency=medium
+
+  * Team upload.
+  * Import upstream version 0.030.
+
+ -- gregor herrmann <gregoa@debian.org>  Wed, 25 Mar 2020 20:26:16 +0100
+
+libtest-warnings-perl (0.029-1) unstable; urgency=medium
+
+  * Team upload.
+  * Import upstream version 0.029.
+  * Declare compliance with Debian Policy 4.5.0.
+  * Set Rules-Requires-Root: no.
+
+ -- gregor herrmann <gregoa@debian.org>  Tue, 17 Mar 2020 17:38:46 +0100
+
+libtest-warnings-perl (0.028-1) unstable; urgency=medium
+
+  * Team upload.
+  * Import upstream version 0.028.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 05 Jan 2020 00:40:07 +0100
+
+libtest-warnings-perl (0.027-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ gregor herrmann ]
+  * debian/copyright: change Copyright-Format 1.0 URL to HTTPS.
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-* headers for switch to salsa.debian.org
+
+  [ gregor herrmann ]
+  * Import upstream version 0.027.
+  * Annotate test-only build dependencies with <!nocheck>.
+  * Declare compliance with Debian Policy 4.4.1.
+  * Drop unneeded version constraints from (build) dependencies.
+  * Bump debhelper-compat to 12.
+  * debian/watch: use uscan version 4.
+  * Remove obsolete fields Name, Contact from debian/upstream/metadata.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 02 Nov 2019 02:06:47 +0100
+
+libtest-warnings-perl (0.026-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Salvatore Bonaccorso ]
+  * debian/control: Use HTTPS transport protocol for Vcs-Git URI
+
+  [ Lucas Kanashiro ]
+  * Import upstream version 0.026
+
+  [ gregor herrmann ]
+  * Update alternative build dependencies.
+
+ -- Lucas Kanashiro <kanashiro.duarte@gmail.com>  Mon, 01 Feb 2016 23:39:06 -0200
+
+libtest-warnings-perl (0.024-1) unstable; urgency=medium
+
+  * Team upload.
+  * Import upstream version 0.024.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 26 Dec 2015 18:18:07 +0100
+
+libtest-warnings-perl (0.023-1) unstable; urgency=medium
+
+  * Team upload.
+  * Import upstream version 0.023.
+  * Add libpadwalker-perl to Build-Depends-Indep.
+    Needed for optional new tests.
+
+ -- gregor herrmann <gregoa@debian.org>  Wed, 23 Dec 2015 18:31:42 +0100
+
+libtest-warnings-perl (0.022-1) unstable; urgency=medium
+
+  * Team upload.
+  * Import upstream version 0.022.
+  * Bump versioned build dependency on libcpan-meta-check-perl.
+  * Bump debhelper compatibility level to 9.
+
+ -- gregor herrmann <gregoa@debian.org>  Mon, 21 Dec 2015 20:14:53 +0100
+
+libtest-warnings-perl (0.021-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-Browser URL to cgit web frontend
+
+  [ gregor herrmann ]
+  * Update Test::Tester build dependency.
+  * Declare compliance with Debian Policy 3.9.6.
+  * Add debian/upstream/metadata.
+
+  * Import upstream version 0.021.
+  * Add new build dependencies.
+  * Add Breaks: libfile-pushd-perl (<< 1.004).
+  * Mark package as autopkgtest-able.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 13 Jun 2015 22:07:48 +0200
+
+libtest-warnings-perl (0.016-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release.
+  * Drop build dependency on libtest-deep-perl.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 21 Jun 2014 16:10:08 +0200
+
+libtest-warnings-perl (0.015-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release.
+  * Upstream dropped Module::Build::Tiny usage.
+    Adjust debian/{control,compat}.
+
+ -- gregor herrmann <gregoa@debian.org>  Fri, 20 Jun 2014 17:40:22 +0200
+
+libtest-warnings-perl (0.014-1) unstable; urgency=medium
+
+  * Team upload.
+  * debian/control: bump required debhelper version for
+    Module::Build::Tiny to 9.20140227.
+  * New upstream release.
+  * Bump versioned build dependency on libmodule-build-tiny-perl.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 06 Apr 2014 18:03:37 +0200
+
+libtest-warnings-perl (0.013-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release.
+  * Update build dependencies.
+  * Declare compliance with Debian Policy 3.9.5.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 15 Dec 2013 18:07:39 +0100
+
+libtest-warnings-perl (0.012-1) unstable; urgency=low
+
+  * Team upload
+
+  * New upstream release
+    + documentation/build infrastructure changes
+  * install CONTRIBUTING file as documentation
+
+ -- Damyan Ivanov <dmn@debian.org>  Fri, 18 Oct 2013 22:36:31 +0300
+
+libtest-warnings-perl (0.010-1) unstable; urgency=low
+
+  * Team upload.
+
+  * New upstream release.
+  * Update build dependencies.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 05 Oct 2013 16:19:11 +0200
+
+libtest-warnings-perl (0.009-1) unstable; urgency=low
+
+  * Team upload.
+
+  * New upstream release.
+  * Update build dependencies.
+  * Build-depend on debhelper (>= 9.20130630~). Needed for
+    Module::Build::Tiny support.
+
+ -- gregor herrmann <gregoa@debian.org>  Fri, 13 Sep 2013 14:55:57 +0200
+
+libtest-warnings-perl (0.008-1) unstable; urgency=low
+
+  * Initial Release. (Closes: #720023)
+
+ -- Florian Schlichting <fsfs@debian.org>  Sat, 17 Aug 2013 22:13:01 +0200
